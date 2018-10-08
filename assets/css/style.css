@@ -181,6 +181,8 @@ section{
     width: 640px;
     margin-right: 25%;
     margin-top: 20px;
+    height: 100%; 
+    margin-bottom: 100px;
     
 }
 .titleline{
@@ -204,12 +206,12 @@ section{
 @media only screen and (max-width: 640px) {
     /* For mobile phones: */
     section{
-        width: 500px;
+        width: 400px;
          
     }
 
     .titleline{
-        width: 440px;
+        width: 350px;
     }
     
     .name{
@@ -225,14 +227,15 @@ section{
 
     .column{
         width: 100%;
+        padding: 30px;
     }
 
     header{
         padding: 0;
     }
-.prname{
-    top: 200px;
-}
+    .prname{
+        top: 200px;
+    }
 }
 
 
