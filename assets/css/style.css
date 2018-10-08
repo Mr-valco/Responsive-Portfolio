@@ -173,3 +173,62 @@ input[type=submit]:hover {
     margin-bottom: -58px;
 }
 
+
+@media only screen and (max-width: 980px) {
+    /* For mobile small: */
+ 
+section{
+    width: 640px;
+    margin-right: 25%;
+    margin-top: 20px;
+    
+}
+.titleline{
+    width: 590px;
+}
+
+.name{
+    margin-left: 0;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile tablet: */
+section{
+    left: 20px;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+    /* For mobile phones: */
+    section{
+        width: 500px;
+         
+    }
+
+    .titleline{
+        width: 440px;
+    }
+    
+    .name{
+        margin-left: 0;
+        float: none;
+        position: sticky;
+    }
+
+    .topnav-right {
+        float: none ;   
+
+    }
+
+    .column{
+        width: 100%;
+    }
+
+    header{
+        padding: 0;
+    }
+
+}
