@@ -34,6 +34,7 @@ header{
 
 .topnav {
     overflow: hidden;
+    float: right;
 }
 
 .topnav a {
@@ -199,19 +200,26 @@ section{
     /* For mobile tablet: */
 section{
     left: 20px;
-}
+        width: 680px;
+        border-radius: 5px; 
+    }
+
+    .titleline{
+        width: 620px;
+    }
+
 
 }
 
 @media only screen and (max-width: 640px) {
     /* For mobile phones: */
     section{
-        width: 400px;
-         
+        width: 319px;
+        border-radius: 5px; 
     }
 
     .titleline{
-        width: 350px;
+        width: 198px;
     }
     
     .name{
@@ -220,9 +228,12 @@ section{
         position: sticky;
     }
 
-    .topnav-right {
-        float: none ;   
-
+    .topnav {
+     
+        text-align: center;
+        margin: 5px auto;
+        float: none;
+          
     }
 
     .column{
